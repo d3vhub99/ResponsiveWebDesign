@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="surveyform.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.google.com/specimen/Lobster" type="text/css" rel="stylesheet"/>
+    <link href="logo/surveyform.png" rel="icon" type="image/x-icon"/>
+</head>
+<body>
+    <div id="header">
+        <h1 id="title">#100DaysOfCode Feedback Survey Form</h1>
+        <p id="description">How are you finding the #100DaysOfCode challenge so far?</p>
+      </div>
+    
+      <form id="survey-form">
+        <table>
+          <tr>  
+            <td><label for="name" class="leftcol" id="name-label">Name</label></td>
+            <td><input type="text" class="rightcol" name="name" id="name" placeholder="Enter name" required></td>
+          </tr>
+          <tr>
+            <td><label for="email" class="leftcol" id="email-label">Email</label></td>
+            <td><input type="email" name="email" id="email" class="rightcol" placeholder="Enter Email address" required></td>
+          </tr>
+          <tr>
+            <td><label for="number" id="number-label">Age</label></td>
+            <td><input type="number" name="number" id="number"  min="18" max="100" placeholder="18"></td>
+          </tr>
+          <tr>
+            <td><label for="dropdown" id="dropdown-label">What is your rating for this challenge, out of ten?</label></td>
+            <td>
+              <select name="dropdown" id="dropdown" name="dropdown">
+                <option value="1" selected="">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Specify Gender</td>
+            <td>
+              <input type="radio" name="gender" value="male" id="male">
+              <label for="male" name="gender">Male</label><br>
+              <input type="radio" name="gender" value="female" id="female">
+              <label for="female" name="gender">Female</label><br>
+              <input type="radio" name="gender" value="other" id="other">
+              <label for="other" name="gender">Other</label><br>
+              <input type="radio" name="gender" value="prefernottosay" id="prefernottosay">
+              <label for="prefernottosay" name="gender">Prefer Not To Say</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Reason to take 100DaysofCode</td>
+            <td>
+              <label><input type="checkbox" name="reason" value="1">Try something new</label><br>
+              <label><input type="checkbox" name="reason" value="2">To get a job</label><br>
+              <label><input type="checkbox" name="reason" value="3">To improve your skills</label><br>
+              <label><input type="checkbox" name="reason" value="4">Money</label><br>
+              <label><input type="checkbox" name="reason" value="5">Freelancer</label><br>
+              <label><input type="checkbox" name="reason" value="6">Just because I was bored </label>
+            </td>
+          </tr>
+          <tr>
+            <td>Comments</td>
+            <td><textarea name="textarea" id="textarea" rows="10" cols="50" placeholder="Enter your comments here"></textarea></td>
+          </tr>
+        </table>
+        <input type="submit" name="submit" id="submit" value="SUBMIT" aria-rowspan="10">
+      </form>
+    
+</body>
+</html>

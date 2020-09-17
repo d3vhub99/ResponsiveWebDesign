@@ -1,0 +1,55 @@
+body {
+    font-family: Lobster;
+    background-color: hsl(60, 92%, 29%);
+  }
+  
+  #header {
+    color: white;
+    text-align: center;
+  }
+  
+  form {
+    width:80%;
+    padding: 30px;
+    border-radius: 50px;
+    background: #d3b17257;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+    margin: auto;
+                
+                  }
+  
+  #submit {
+    background-color: #85d1db4b;
+    color: white;
+    height: 40px;
+    width: 50%;
+    font-size: 24px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  
+  
+  .rightcol {
+    width: 100%;
+  }
+  
+  table{
+      table-layout: fixed;
+      width: 100%;
+  }
+  
+  th, td {
+      width: 100%;
+      padding-top: 10px;
+      vertical-align: top;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  #dropdown, textarea, input {
+    font-size: 16px;
+  }
