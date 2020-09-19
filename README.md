@@ -8,5 +8,5 @@
 1. [X] Tribute Page Challenge from Freecodecamp
 2. [X] Survey Form challenge from Freecodecamp
 3. [X] Product landing page Challenge from Free code camp
-4. [ ] Technical Documentation
+4. [X] Technical Documentation
 5. [ ] Personal Portfolio
